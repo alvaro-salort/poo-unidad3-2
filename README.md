@@ -79,15 +79,15 @@ java -cp bin ejercitacion3_3.ejercicio10.Reserva
 
 ---
 
-**Entrenador Novato:**
-
-```java
-if (poke.tipo == FUEGO) lanzarLlamas();
-else if (poke.tipo == AGUA) chorroAgua();
-```
-
-**Entrenador Maestro:**
-
-```java
-miPokemon.ejecutarAtaque();
-```
+>**Entrenador Novato:**
+>
+>```java
+>if (poke.tipo == FUEGO) lanzarLlamas();
+>else if (poke.tipo == AGUA) chorroAgua();
+>```
+>
+>**Entrenador Maestro:**
+>
+>```java
+>miPokemon.ejecutarAtaque();
+>```
