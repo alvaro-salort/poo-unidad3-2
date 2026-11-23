@@ -71,15 +71,15 @@ java -cp bin ejercitacion3_3.ejercicio10.Reserva
 - **Java Development Kit (JDK):** Versión 17 o superior.
 - **IDE recomendado:** Visual Studio Code, IntelliJ IDEA, Eclipse o NetBrains.
 
-**Entrenador Novato:**
-
-```java
-if (poke.tipo == FUEGO) lanzarLlamas();
-else if (poke.tipo == AGUA) chorroAgua();
-```
-
-**Entrenador Maestro:**
-
-```java
-miPokemon.ejecutarAtaque();
-```
+>**Entrenador Novato:**
+>
+>```java
+>if (poke.tipo == FUEGO) lanzarLlamas();
+>else if (poke.tipo == AGUA) chorroAgua();
+>```
+>
+>**Entrenador Maestro:**
+>
+>```java
+>miPokemon.ejecutarAtaque();
+>```
