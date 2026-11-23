@@ -27,7 +27,7 @@ public class Factura implements Imprimible {
         Imprimible documento1 = new Factura("F-0001", 45500.0);
         Imprimible documento2 = new Reporte("Ventas del mes", 12);
 
-        System.out.println("--- IMPRESION POLIMORFICA SOBRE EL TIPO Imprimible ---");
+        System.out.println("IMPRESION POLIMORFICA SOBRE EL TIPO Imprimible");
         documento1.imprimir();
         documento2.imprimir();
     }

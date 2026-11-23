@@ -23,7 +23,7 @@ public class AvisoPlataforma implements NotificableCampus {
         notificaciones.add(new AvisoPlataforma("Aula Virtual"));
         notificaciones.add(new NotificacionEmail("docentes@correo.com"));
 
-        System.out.println("--- NOTIFICACIONES DEL CAMPUS VIRTUAL ---");
+        System.out.println("NOTIFICACIONES DEL CAMPUS VIRTUAL");
         for (NotificableCampus notificable : notificaciones) {
             notificable.enviarNotificacion("Vence el entrega del trabajo practico");
         }

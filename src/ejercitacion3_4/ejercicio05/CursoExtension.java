@@ -20,7 +20,7 @@ public class CursoExtension implements Acreditable {
         Acreditable curso = new CursoExtension("Extension en Gestion de Proyectos", 8);
         Acreditable proyecto = new ProyectoInvestigacion("INV-220", 120);
 
-        System.out.println("--- HORAS ACREDITADAS SEGUN EL TIPO Acreditable ---");
+        System.out.println("HORAS ACREDITADAS SEGUN EL TIPO Acreditable");
         System.out.printf("Curso de extension:      %d horas%n", curso.obtenerHorasAcreditadas());
         System.out.printf("Proyecto de investigacion: %d horas%n", proyecto.obtenerHorasAcreditadas());
     }

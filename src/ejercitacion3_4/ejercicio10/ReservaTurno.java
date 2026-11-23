@@ -30,17 +30,16 @@ public abstract class ReservaTurno {
         turnos.add(new TurnoLaboratorio("Ayelen Cruz", "2026-03-13", 35000.0));
 
         double total = 0;
-        System.out.println("--- DETALLE DE CADA TURNO ---");
+        System.out.println("DETALLE DE CADA TURNO");
         for (ReservaTurno turno : turnos) {
             double arancel = turno.calcularArancel();
             total += arancel;
             System.out.printf("%-18s | %-18s | %-24s | Arancel: $%.2f%n",
                     turno.getPersona(), turno.getFecha(), turno.getClass().getSimpleName(), arancel);
         }
-        System.out.println("----------------------------------------------------");
         System.out.printf("COSTO TOTAL DE ARANCELES: $%.2f%n", total);
 
-        System.out.println("\n--- CANCELACION DE LOS TURNOS QUE LO PERMITEN ---");
+        System.out.println("\nCANCELACION DE LOS TURNOS QUE LO PERMITEN");
         for (ReservaTurno turno : turnos) {
             if (turno instanceof Cancelable) {
                 Cancelable cancelable = (Cancelable) turno;

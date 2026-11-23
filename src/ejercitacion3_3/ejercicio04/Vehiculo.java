@@ -26,10 +26,10 @@ public class Vehiculo {
         Vehiculo auto = new Auto("Toyota", "Etios");
         Vehiculo moto = new Moto("Honda", "XR150L");
 
-        System.out.println("--- PRUEBA CON UN AUTO ---");
+        System.out.println("PRUEBA CON UN AUTO");
         probarVehiculo(auto);
 
-        System.out.println("\n--- PRUEBA CON UNA MOTO ---");
+        System.out.println("\nPRUEBA CON UNA MOTO");
         probarVehiculo(moto);
     }
 }

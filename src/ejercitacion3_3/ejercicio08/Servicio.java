@@ -34,13 +34,12 @@ public class Servicio implements Pagable {
         pagos.add(new CompraProducto("Teclado mecanico", 85000.0, 1));
 
         double total = 0;
-        System.out.println("--- DETALLE DE CADA MONTO A PAGAR ---");
+        System.out.println("DETALLE DE CADA MONTO A PAGAR");
         for (Pagable pagable : pagos) {
             double monto = pagable.obtenerMontoPago();
             total += monto;
             System.out.printf("[%s] Monto a pagar: $%.2f%n", pagable.getClass().getSimpleName(), monto);
         }
-        System.out.println("----------------------------------------------");
         System.out.printf("TOTAL GENERAL A PAGAR: $%.2f%n", total);
     }
 }

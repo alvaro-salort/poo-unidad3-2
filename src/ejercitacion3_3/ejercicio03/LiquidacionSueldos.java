@@ -14,7 +14,7 @@ public class LiquidacionSueldos {
 
         LiquidacionSueldos liquidacion = new LiquidacionSueldos();
 
-        System.out.println("--- LIQUIDACION POLIMORFICA ---");
+        System.out.println("LIQUIDACION POLIMORFICA");
         liquidacion.liquidar(planta);
         liquidacion.liquidar(eventual);
     }

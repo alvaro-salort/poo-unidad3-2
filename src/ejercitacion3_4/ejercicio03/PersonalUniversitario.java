@@ -31,7 +31,7 @@ public abstract class PersonalUniversitario {
 
         LiquidacionSueldos liquidacion = new LiquidacionSueldos();
 
-        System.out.println("--- LIQUIDACION POLIMORFICA DE HABERES ---");
+        System.out.println("LIQUIDACION POLIMORFICA DE HABERES");
         liquidacion.procesarPago(titular);
         liquidacion.procesarPago(noDocente);
     }

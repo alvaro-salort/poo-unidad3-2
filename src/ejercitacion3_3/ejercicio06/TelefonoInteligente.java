@@ -33,15 +33,15 @@ public class TelefonoInteligente implements Conectable, Recargable {
     public static void main(String[] args) {
         TelefonoInteligente telefono = new TelefonoInteligente("Samsung", 45);
 
-        System.out.println("--- COMO CONECTABLE ---");
+        System.out.println("COMO CONECTABLE");
         Conectable conectable = telefono;
         conectable.conectar();
 
-        System.out.println("\n--- COMO RECARGABLE ---");
+        System.out.println("\nCOMO RECARGABLE");
         Recargable recargable = telefono;
         recargable.cargarBateria();
 
-        System.out.println("\n--- COMO TELFONO INTELIGENTE (clase concreta) ---");
+        System.out.println("\nCOMO TELFONO INTELIGENTE (clase concreta)");
         telefono.desconectar();
         System.out.printf("Nivel de bateria final: %d%%%n", telefono.getNivelBateria());
     }

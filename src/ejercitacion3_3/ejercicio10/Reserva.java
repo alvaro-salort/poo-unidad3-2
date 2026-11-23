@@ -24,17 +24,16 @@ public abstract class Reserva {
         reservas.add(new ReservaVIP(85000.0));
 
         double total = 0;
-        System.out.println("--- DETALLE DE CADA RESERVA ---");
+        System.out.println("DETALLE DE CADA RESERVA");
         for (Reserva reserva : reservas) {
             double costo = reserva.calcularCostoFinal();
             total += costo;
             System.out.printf("%-18s | Precio base: $%.2f | Costo final: $%.2f%n",
                     reserva.getClass().getSimpleName(), reserva.getPrecioBase(), costo);
         }
-        System.out.println("----------------------------------------------------");
         System.out.printf("Costo acumulado del sistema: $%.2f%n", total);
 
-        System.out.println("\n--- CANCELACION DE LAS RESERVAS ELEGIBLES ---");
+        System.out.println("\nCANCELACION DE LAS RESERVAS ELEGIBLES");
         for (Reserva reserva : reservas) {
             if (reserva instanceof Cancelable) {
                 // downcasting seguro: solo las ReservationVIP implementan Cancelable

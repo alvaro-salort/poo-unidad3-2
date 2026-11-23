@@ -33,10 +33,10 @@ public abstract class EspacioUniversitario {
         Laboratorio laboratorio = new Laboratorio("Laboratorio de Quimica");
         AulaMagna aula = new AulaMagna("Aula Magna");
 
-        System.out.println("--- PREPARACION DE UN LABORATORIO ---");
+        System.out.println("PREPARACION DE UN LABORATORIO");
         prepararEspacio(laboratorio);
 
-        System.out.println("\n--- PREPARACION DEL AULA MAGNA ---");
+        System.out.println("\nPREPARACION DEL AULA MAGNA");
         prepararEspacio(aula);
     }
 }

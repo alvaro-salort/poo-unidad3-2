@@ -23,7 +23,7 @@ public class NotificacionPush implements Notificable {
         notificaciones.add(new NotificacionPush("Samsung Galaxy S24"));
         notificaciones.add(new NotificacionEmail("profes@correo.com"));
 
-        System.out.println("--- NOTIFICACIONES ENVIADAS ---");
+        System.out.println("NOTIFICACIONES ENVIADAS");
         for (Notificable notificable : notificaciones) {
             notificable.enviarNotificacion("Mensaje de prueba");
         }

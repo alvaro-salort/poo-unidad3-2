@@ -30,7 +30,7 @@ public abstract class SolicitudBeca {
         solicitudes.add(new BecaComedor("Diego Paz", 90000.0));
 
         double presupuesto = 0;
-        System.out.println("--- DESGLOSE DE LAS SOLICITUDES ---");
+        System.out.println("DESGLOSE DE LAS SOLICITUDES");
         for (SolicitudBeca solicitud : solicitudes) {
             double monto = solicitud.calcularMontoAsignado();
             presupuesto += monto;
@@ -38,7 +38,6 @@ public abstract class SolicitudBeca {
                     solicitud.getSolicitante(), solicitud.getClass().getSimpleName(),
                     solicitud.getMontoBase(), monto);
         }
-        System.out.println("----------------------------------------------------");
         System.out.printf("PRESUPUESTO TOTAL REQUERIDO: $%.2f%n", presupuesto);
     }
 }

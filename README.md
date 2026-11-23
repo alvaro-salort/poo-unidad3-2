@@ -6,9 +6,7 @@ Cada ejercicio está modularizado de forma independiente dentro de su propio paq
 
 Además, se incluye un **Menú Interactivo de Consola (`Main.java`)** para compilar y ejecutar cualquier consigna cómodamente.
 
----
-
-## 📂 Índice de Ejercicios Resueltos
+## Índice de Ejercicios Resueltos
 
 ### Ejercitación 3.E.3: Polimorfismo
 
@@ -40,8 +38,6 @@ Además, se incluye un **Menú Interactivo de Consola (`Main.java`)** para compi
 | **09. Evaluable** | [`ExamenOral.java`](src/ejercitacion3_4/ejercicio09/ExamenOral.java) | Método `default` `estaAprobado()` reutilizado por la implementación `ExamenOral`. |
 | **10. ReservaTurno** | [`ReservaTurno.java`](src/ejercitacion3_4/ejercicio10/ReservaTurno.java) | Control de turnos con aranceles, cancelación opcional y comprobación de tipos. |
 
----
-
 ## Compilación y Ejecución
 
 ### Opción 1: Menú Interactivo de Consola (¡Recomendado!)
@@ -70,14 +66,10 @@ java -cp bin ejercitacion3_3.ejercicio10.Reserva
 
 > La opción `-sourcepath src` le permite a `javac` resolver las clases auxiliares del mismo ejercicio automáticamente.
 
----
-
 ## Requisitos
 
 - **Java Development Kit (JDK):** Versión 17 o superior.
 - **IDE recomendado:** Visual Studio Code, IntelliJ IDEA, Eclipse o NetBrains.
-
----
 
 **Entrenador Novato:**
 

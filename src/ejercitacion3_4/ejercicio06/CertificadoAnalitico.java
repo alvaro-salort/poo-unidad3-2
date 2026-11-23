@@ -31,15 +31,15 @@ public class CertificadoAnalitico implements Imprimible, ValidableDigitalmente {
     public static void main(String[] args) {
         CertificadoAnalitico certificado = new CertificadoAnalitico("Paula Medina", "Contaduria", "FD-2026-0091");
 
-        System.out.println("--- COMO Imprimible ---");
+        System.out.println("COMO Imprimible");
         Imprimible imprimible = certificado;
         imprimible.imprimirDocumento();
 
-        System.out.println("\n--- COMO ValidableDigitalmente ---");
+        System.out.println("\nCOMO ValidableDigitalmente");
         ValidableDigitalmente validable = certificado;
         validable.verificarFirmaDigital();
 
-        System.out.println("\n--- COMO CertificadoAnalitico (clase concreta) ---");
+        System.out.println("\nCOMO CertificadoAnalitico (clase concreta)");
         certificado.imprimirDocumento();
         System.out.println("Resultado de la verificacion: " + certificado.verificarFirmaDigital());
     }

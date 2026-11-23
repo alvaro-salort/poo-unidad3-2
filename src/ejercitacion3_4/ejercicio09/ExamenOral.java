@@ -20,10 +20,10 @@ public class ExamenOral implements Evaluable {
     public static void main(String[] args) {
         ExamenOral examen = new ExamenOral("Nicolas Herrera", 8.5, 7.0);
 
-        System.out.println("--- METODO ABSTRACTO IMPLEMENTADO POR LA CLASE ---");
+        System.out.println("METODO ABSTRACTO IMPLEMENTADO POR LA CLASE");
         System.out.printf("Alumno: %s | Puntaje: %.2f%n", examen.alumno, examen.obtenerPuntaje());
 
-        System.out.println("\n--- METODO default HEREDADO DE LA INTERFAZ ---");
+        System.out.println("\nMETODO default HEREDADO DE LA INTERFAZ");
         System.out.println("Aprobado: " + examen.estaAprobado());
     }
 }
